@@ -30,7 +30,7 @@ def crawlPage(htmlSourceCode):
 			break
 		subjectNameEnd = htmlSourceCode.find('"',subjectNameStart+8)
 		subjectName = htmlSourceCode[subjectNameStart+8:subjectNameEnd-1]
-		my_file = open("/home/storm/Desktop/output.txt", "a")
+		my_file = open("output.txt", "a")
 		my_file.write(subjectName + '\n')
 		my_file.close()
 		print(subjectName)
@@ -43,7 +43,7 @@ def crawlPage(htmlSourceCode):
 			subjectNameEnd = stateEnd
 			if subSectionEnd>newSubSection:
 				break
-			my_file = open("/home/storm/Desktop/output.txt", "a")
+			my_file = open("output.txt", "a")
 			my_file.write(state + '\n')
 			my_file.close()
 			newStateSection = htmlSourceCode.find('<p><strong>',stateEnd+7)
@@ -59,7 +59,7 @@ def crawlPage(htmlSourceCode):
 				stateSectionEnd = yearEnd
 				if stateSectionEnd>newStateSection:
 					break
-				my_file = open("/home/storm/Desktop/output.txt", "a")
+				my_file = open("output.txt", "a")
 				my_file.write(year + '\n')
 				my_file.write(pdfLink + '\n')
 				my_file.close()
