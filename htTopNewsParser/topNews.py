@@ -8,7 +8,7 @@ import time
 
 config = {
   "apiKey": "**********",
-  "authDomain": "*****.firebaseapp.com",
+  "authDomain": "******.firebaseapp.com",
   "databaseURL": "https://******.firebaseio.com",
   "storageBucket": "*******.appspot.com"
 }
