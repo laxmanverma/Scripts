@@ -24,10 +24,10 @@ htmlCodes = (
             )
 
 config = {
-  "apiKey": "AAAAqerRwI4:APA91bFEBAoQbWPTmBgZF5btDwCzuLu-mv3bV4KW68_lBq8DP62R00WKYWkvgR_wvRHSPgEJZ4MqqdDW4c0_XrqRKt1204OPE1Ym2Osk2z9j8qiDVjg7I1c9_Igkh5CA0hXWPiLwT9hp",
-  "authDomain": "instafeedplus.firebaseapp.com",
-  "databaseURL": "https://instafeedplus.firebaseio.com",
-  "storageBucket": "instafeedplus.appspot.com"
+  "apiKey": "*************",
+  "authDomain": "*******.firebaseapp.com",
+  "databaseURL": "https://**********.firebaseio.com",
+  "storageBucket": "*********.appspot.com"
 }
 
 def writeToFirebase(data, parent, child):
